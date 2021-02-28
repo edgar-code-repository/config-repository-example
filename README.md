@@ -1,15 +1,14 @@
 Config Repository Example
-------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
 
-Repositorio de ejemplo para leer configuracion de microservicios desde un servicio Config Server
-desarrollado con Spring Boot y Spring Cloud.
+This is a very simple repository that contains just two property files that are 
+read from a Config Service built with Spring Boot and Spring Cloud.
 
-------------------------------------------------------------------------------------------------------------------------
+https://github.com/edgar-code-repository/spring-cloud-config-example
 
-**Configuracion para el servicio config-client-example:**
+--------------------------------------------------------------------------------------------------------------------
 
-El servicio config-client-example debe correr en el puerto 8200.
-Se definen las cadenas title y message para ser utilizadas desde el servicio.
+**Properties used by a service called "config-client-example"**
 
 ```
 server.port=8200
@@ -18,6 +17,5 @@ message=Hello! This service gets its configuration from a Spring Cloud Config Se
 
 ```
 
-
-------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
 
